@@ -12,3 +12,4 @@ Background: Qubes is nice but heavy, ImuOS will be quick and light basis for a h
 # Links
 1. Coreboot https://www.coreboot.org
 2. ME Cleaner: https://github.com/corna/me_cleaner
+3. Nexedi OS: https://nayuos.nexedi.com
