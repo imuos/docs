@@ -2,3 +2,54 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+/*------------------------------------*\
+$-- TYPOGRAPHY
+\*------------------------------------*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/Regular/OpenSans-Regular.eot');
+  src: url('/assets/fonts/Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Regular/OpenSans-Regular.woff') format('woff'), url('/assets/fonts/Regular/OpenSans-Regular.ttf') format('truetype'), url('/assets/fonts/Regular/OpenSans-Regular.svg#OpenSansRegular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Regular.eot');
+  src: url('/assets/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Montserrat-Regular.woff') format('woff'), url('/assets/fonts/Montserrat-Regular.ttf') format('truetype'), url('/assets/fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Bold.eot');
+  src: url('/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Montserrat-Bold.woff') format('woff'), url('/assets/fonts/Montserrat-Bold.ttf') format('truetype'), url('/assets/fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+  font-weight: 700; }
+  @font-face {
+      font-family: 'Arcamajora3';
+      src: url('/assets/fonts/ArcaMajora3-Bold.eot');
+      src: url('/assets/fonts/ArcaMajora3-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/ArcaMajora3-Bold.woff2') format('woff2'),
+      url('/assets/fonts/ArcaMajora3-Bold.woff') format('woff'),
+      url('/assets/fonts/ArcaMajora3-Bold.otf') format('opentype');
+      font-weight: 400;
+  }
+  @font-face {
+      font-family: 'Arcamajora3';
+      src: url('/assets/fonts/ArcaMajora3-Heavy.eot');
+      src: url('/assets/fonts/ArcaMajora3-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/ArcaMajora3-Heavy.woff2') format('woff2'),
+      url('/assets/fonts/ArcaMajora3-Heavy.woff') format('woff'),
+      url('/assets/fonts/ArcaMajora3-Heavy.otf') format('opentype');
+      font-weight: 700;
+  }
+
+
+
+/*------------------------------------*\
+$-- ELEMENT STYLES
+\*------------------------------------*/
+
+h1 {
+  font-family: 'Arcamajora3', 'Montserrat', Helvetica, sans-serif;
+}
